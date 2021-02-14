@@ -86,5 +86,5 @@ jobs:
         
       - name: ssh in and run script
         run: |
-          ssh billytracking.co
+          ssh ubuntu@billytracking.co
           /opt/build.sh
